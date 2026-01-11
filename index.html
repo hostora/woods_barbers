@@ -70,13 +70,13 @@
             <h2 class="section-title reveal-up">Our Services</h2>
             <div class="services-grid">
                 <div class="service-card reveal-up" data-tilt>
-                    <div class="service-icon">✂️</div>
+                    <div class="service-icon"></div>
                     <h3 class="service-title">Haircut</h3>
                     <p class="service-price">£13</p>
                     <p class="service-description">Classic and modern cuts tailored to your style</p>
                 </div>
                 <div class="service-card reveal-up" data-tilt>
-                    <div class="service-icon">🧔</div>
+                    <div class="service-icon"></div>
                     <h3 class="service-title">Beard Trim</h3>
                     <p class="service-price">£8</p>
                     <p class="service-description">Professional beard shaping and grooming</p>
@@ -198,12 +198,14 @@
                     <a href="https://maps.google.com/maps?q=Woods+Barbers+Edinburgh" class="btn btn-primary" target="_blank" rel="noopener">Get Directions</a>
                 </div>
                 <div class="map-container reveal-up">
-                    <div class="map-placeholder" id="map-placeholder">
-                        <div class="map-loading">
-                            <span>📍</span>
-                            <p>Click to open in Google Maps</p>
-                        </div>
-                    </div>
+                    <iframe 
+                        src="https://maps.google.com/maps?q=Woods+Barbers+Edinburgh&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        class="map-iframe"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Woods Barbers Location">
+                    </iframe>
                 </div>
             </div>
         </div>
@@ -231,7 +233,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Woods Barbers Edinburgh. All rights reserved.</p>
+                <p>&copy; 2024 Woods Barbers Edinburgh. All rights reserved.</p>
             </div>
         </div>
     </footer>
